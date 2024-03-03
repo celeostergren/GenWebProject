@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 13px;
-  min-height: 100vh;
-  line-height: 1.6;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .gallery img {
   width: 100px;
   height: 100px;
@@ -84,9 +75,50 @@ header {
 /* group */
 .group-section {
   display: grid;
-  grid-template-columns: 1fr 1 fr 1fr;
+  grid-template-columns: 2fr 1.5fr 2fr;
   grid-template-rows: 1fr;
+  margin-bottom: 60px;
+}
+
+.section_left {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.main-nav_middle ul li a {
+  text-decoration: none;
+}
+
+.main-nav_left ul li a {
+  text-decoration: none;
 }
 
 /* awards section */
-/* footer section *//*# sourceMappingURL=style.css.map */
+.awards-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.main-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-footer ul li a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.sub-footer img {
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */

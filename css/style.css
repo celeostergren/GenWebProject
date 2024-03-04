@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 100%;
+}
+
 /* header section */
 header {
   height: 10vh;
@@ -254,4 +258,12 @@ footer {
 
 .sub-footer img {
   margin: 5px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* PROJECT DETAILS *
+
+
+/* header section */
+/* hero section */
+/* Image section */
+/* footer section *//*# sourceMappingURL=style.css.map */

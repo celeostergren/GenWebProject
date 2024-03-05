@@ -309,6 +309,7 @@ nav ul li a{
 .hero-section_left{
   margin: 100px;
   margin-top: 10px;
+  line-height: 30px;
   
 }
 .hero-section_left h1{
@@ -330,17 +331,8 @@ nav ul li a{
 }
 .hero-section_right h2{
   font-weight: bold;
-  
 }
   
-  
-
-
-
-
-
-
-
 
 /*image section*/
 
@@ -348,9 +340,15 @@ nav ul li a{
   padding: 0 100px;
 }
 .top-image img{
-  margin-bottom: 30px;
-  
+  margin-bottom: 10px;
 }
+
+.middle-section_info p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
 .bottom-images{
   display: grid;
   gap: 1px;

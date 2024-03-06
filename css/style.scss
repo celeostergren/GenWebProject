@@ -246,7 +246,7 @@ body {
 
 
 
-/* Project page (project.html) */
+/* PROJECT DETAILS PAGE (project.html) */
 
 .container {
   padding: 0 5%;
@@ -325,11 +325,91 @@ body {
 }
 
 
-
 @import "_footer";
 
 
 
+/* CONTACT PAGE (contact.html) */
+
+.container{
+  padding: 0 5%;
+}
 
 
+@import "_header";
+
+/* contact hero section */
+
+.c_hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 40px;
+}
+
+.c_hero-section-left{
+  margin: 60px;
+  margin-top: 10px;
+  line-height: 30px;
   
+}
+
+.c_hero-section-left h1{
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 25px;
+
+}
+.c_hero-section-left p{
+  font-weight: 500;
+}
+
+.hero-info-right{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+ 
+}
+
+.contact-inputs{
+  width: 100%;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid purple;
+}
+
+.contact-inputs:focus {
+  border: 4px solid orchid;
+}
+
+
+.hero-info-right textarea{
+  height: 60px;
+  padding-top: 15px;
+  border-radius: 5px;
+}
+
+.hero-info-right button{
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  font-size: 15px;
+  color: blueviolet;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+
+}
+
+.map_image{
+  margin-top: 50px;
+  
+}
+.map_image img{
+  width: 100%;
+  height: 50%;
+}
+

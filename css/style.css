@@ -9,36 +9,48 @@
 }
 
 /* header section */
-nav {
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  color: #333;
+  margin-top: 50px;
+}
+
+.navbar {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-label.logo {
+.logo {
   font-size: 20px;
-  line-height: 80px;
-  margin-left: 22px;
-  font-weight: bold;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
-nav ul {
-  float: right;
-  margin-right: 150px;
+.navbar ul {
+  display: flex;
 }
 
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+.navbar ul li {
+  margin-left: 30px;
 }
 
-nav ul li a:hover {
-  font-size: 20px;
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  transition: 0.5s;
 }
 
 /* title section */
 .title-section {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .title_section-left {
@@ -285,18 +297,6 @@ nav ul li a:hover {
   box-sizing: border-box;
 }
 
-nav {
-  margin-left: 40px;
-}
-
-nav ul li {
-  margin-right: 40px;
-}
-
-nav ul li a {
-  text-decoration: none;
-}
-
 /* hero section */
 .hero-section {
   display: flex;
@@ -351,8 +351,4 @@ nav ul li a {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 2fr;
   gap: 6px;
-}
-
-footer {
-  padding: 0 100px;
 }/*# sourceMappingURL=style.css.map */

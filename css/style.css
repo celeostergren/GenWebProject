@@ -13,9 +13,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
-  color: #333;
   margin-top: 50px;
+  background-color: #800080;
+  padding: 1.3rem 10%;
+  width: 100%;
 }
 
 .navbar {
@@ -28,6 +29,8 @@
   font-size: 20px;
   font-weight: bolder;
   text-decoration: none;
+  color: #F0F8FF;
+  padding: 0 5%;
 }
 
 .navbar ul {
@@ -40,6 +43,8 @@
 
 .navbar ul li a {
   text-decoration: none;
+  color: #F0F8FF;
+  margin-left: 2.5rem;
 }
 
 .navbar ul li a:hover {
@@ -58,8 +63,10 @@
 }
 
 .title_section-left h1 {
-  color: rgb(47, 0, 255);
-  margin-bottom: 13px;
+  color: #800080;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .title_section-left p {
@@ -299,9 +306,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
-  color: #333;
   margin-top: 50px;
+  background-color: #800080;
+  padding: 1.3rem 10%;
+  width: 100%;
 }
 
 .navbar {
@@ -314,6 +322,8 @@
   font-size: 20px;
   font-weight: bolder;
   text-decoration: none;
+  color: #F0F8FF;
+  padding: 0 5%;
 }
 
 .navbar ul {
@@ -326,6 +336,8 @@
 
 .navbar ul li a {
   text-decoration: none;
+  color: #F0F8FF;
+  margin-left: 2.5rem;
 }
 
 .navbar ul li a:hover {
@@ -446,9 +458,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
-  color: #333;
   margin-top: 50px;
+  background-color: #800080;
+  padding: 1.3rem 10%;
+  width: 100%;
 }
 
 .navbar {
@@ -461,6 +474,8 @@
   font-size: 20px;
   font-weight: bolder;
   text-decoration: none;
+  color: #F0F8FF;
+  padding: 0 5%;
 }
 
 .navbar ul {
@@ -473,6 +488,8 @@
 
 .navbar ul li a {
   text-decoration: none;
+  color: #F0F8FF;
+  margin-left: 2.5rem;
 }
 
 .navbar ul li a:hover {

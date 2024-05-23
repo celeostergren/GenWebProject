@@ -38,14 +38,19 @@ body {
 }
 
 .title_section-left h1 {
-  color: #800080;
+  color: rgba(74, 79, 242, 1);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   margin-bottom: 30px;
 }
 
 .title_section-left p {
   margin-bottom: 10px;
+}
+
+.dsn{
+  color: rgba(74, 79, 242, 1);
+  font-weight: bold;
 }
 
 .title_section-right p {

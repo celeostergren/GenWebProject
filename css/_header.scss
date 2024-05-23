@@ -3,40 +3,38 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  background-color: #800080;
-  padding: 1.3rem 10%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0 5%;
   width: 100%;
 }
 
-.navbar{
-  width: 100%;
+nav{
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 .logo{
-  font-size: 20px;
-  font-weight: bolder;
   text-decoration: none;
-  color: #F0F8FF;
-  padding: 0 5%;
-  
+  color: rgba(17, 17, 17, 1);
+ 
 }
 
-.navbar ul{
+nav ul{
   display: flex;
 }
 
-.navbar ul li{
+nav ul li{
   margin-left: 30px;
 }
 
-.navbar ul li a{
+nav ul li a{
   text-decoration: none;
-  color: #F0F8FF;
+  color: rgba(17, 17, 17, 1);
   margin-left: 2.5rem;
   
 }
-.navbar ul li a:hover{
+
+nav ul li a:hover{
   transition: 0.5s;
 }

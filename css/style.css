@@ -14,40 +14,37 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  background-color: #800080;
-  padding: 1.3rem 10%;
+  background-color: rgb(255, 255, 255);
+  padding: 0 5%;
   width: 100%;
 }
 
-.navbar {
-  width: 100%;
+nav {
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: bolder;
   text-decoration: none;
-  color: #F0F8FF;
-  padding: 0 5%;
+  color: rgb(17, 17, 17);
 }
 
-.navbar ul {
+nav ul {
   display: flex;
 }
 
-.navbar ul li {
+nav ul li {
   margin-left: 30px;
 }
 
-.navbar ul li a {
+nav ul li a {
   text-decoration: none;
-  color: #F0F8FF;
+  color: rgb(17, 17, 17);
   margin-left: 2.5rem;
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
   transition: 0.5s;
 }
 
@@ -63,14 +60,19 @@
 }
 
 .title_section-left h1 {
-  color: #800080;
+  color: rgb(74, 79, 242);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
   margin-bottom: 30px;
 }
 
 .title_section-left p {
   margin-bottom: 10px;
+}
+
+.dsn {
+  color: rgb(74, 79, 242);
+  font-weight: bold;
 }
 
 .title_section-right p {
@@ -324,26 +326,23 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0 5%;
 }
 
-.footer-logo {
-  font-size: 20px;
-  line-height: 80px;
-  font-weight: bold;
-}
-
-.footerNav-middle ul {
+.footerNav ul {
   display: flex;
   align-items: center;
 }
 
-.footerNav-middle ul li:hover {
+.footerNav ul li:hover {
   transition: 0.5s;
 }
 
-.footerNav-middle ul li a {
+.footerNav ul li a {
   text-decoration: none;
   margin: 10px;
+  color: rgb(17, 17, 17);
 }
 
 .socialLinks-right:hover {
@@ -357,6 +356,7 @@
 .socialLinks-right a i {
   font-size: 1.5em;
   opacity: 0.9;
+  color: rgb(17, 17, 17);
 }
 
 /* PROJECT DETAILS PAGE (project.html) */
@@ -369,40 +369,37 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  background-color: #800080;
-  padding: 1.3rem 10%;
+  background-color: rgb(255, 255, 255);
+  padding: 0 5%;
   width: 100%;
 }
 
-.navbar {
-  width: 100%;
+nav {
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: bolder;
   text-decoration: none;
-  color: #F0F8FF;
-  padding: 0 5%;
+  color: rgb(17, 17, 17);
 }
 
-.navbar ul {
+nav ul {
   display: flex;
 }
 
-.navbar ul li {
+nav ul li {
   margin-left: 30px;
 }
 
-.navbar ul li a {
+nav ul li a {
   text-decoration: none;
-  color: #F0F8FF;
+  color: rgb(17, 17, 17);
   margin-left: 2.5rem;
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
   transition: 0.5s;
 }
 
@@ -476,26 +473,23 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0 5%;
 }
 
-.footer-logo {
-  font-size: 20px;
-  line-height: 80px;
-  font-weight: bold;
-}
-
-.footerNav-middle ul {
+.footerNav ul {
   display: flex;
   align-items: center;
 }
 
-.footerNav-middle ul li:hover {
+.footerNav ul li:hover {
   transition: 0.5s;
 }
 
-.footerNav-middle ul li a {
+.footerNav ul li a {
   text-decoration: none;
   margin: 10px;
+  color: rgb(17, 17, 17);
 }
 
 .socialLinks-right:hover {
@@ -509,6 +503,7 @@
 .socialLinks-right a i {
   font-size: 1.5em;
   opacity: 0.9;
+  color: rgb(17, 17, 17);
 }
 
 /* CONTACT PAGE (contact.html) */
@@ -521,40 +516,37 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  background-color: #800080;
-  padding: 1.3rem 10%;
+  background-color: rgb(255, 255, 255);
+  padding: 0 5%;
   width: 100%;
 }
 
-.navbar {
-  width: 100%;
+nav {
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: bolder;
   text-decoration: none;
-  color: #F0F8FF;
-  padding: 0 5%;
+  color: rgb(17, 17, 17);
 }
 
-.navbar ul {
+nav ul {
   display: flex;
 }
 
-.navbar ul li {
+nav ul li {
   margin-left: 30px;
 }
 
-.navbar ul li a {
+nav ul li a {
   text-decoration: none;
-  color: #F0F8FF;
+  color: rgb(17, 17, 17);
   margin-left: 2.5rem;
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
   transition: 0.5s;
 }
 

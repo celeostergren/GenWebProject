@@ -3,26 +3,25 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0 5%;
+  
 }
 
-.footer-logo{
-  font-size: 20px;
-  line-height: 80px;
-  font-weight: bold;
-}
-
-.footerNav-middle ul{
+.footerNav ul{
   display: flex;
   align-items: center;
+  
 }
 
-.footerNav-middle ul li:hover{
+.footerNav ul li:hover{
   transition: 0.5s;
 }
 
-.footerNav-middle ul li a{
+.footerNav ul li a{
   text-decoration: none;
   margin: 10px;
+  color: rgba(17, 17, 17, 1);
 }
 
 .socialLinks-right:hover{
@@ -36,4 +35,5 @@
 .socialLinks-right a i{
   font-size: 1.5em;
   opacity: 0.9;
+  color: rgba(17, 17, 17, 1);
 }
